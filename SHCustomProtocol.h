@@ -23,9 +23,9 @@ uint8_t minute = 0;
 
 // Set Cluster Variables
 const unsigned int cluster_max_rpm = 7000;
-float output_rpm = 0.00f;
-uint8_t output_speed = 50;
-float output_temp = 50.00f;
+unsigned int output_rpm = 0.00f;
+unsigned int output_speed = 50;
+unsigned int output_temp = 50.00f;
 
 // K-Bus Variables
 byte kbus_lightbyte_1 = 0x00;
